@@ -4,3 +4,42 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+header {
+    padding: 12%;
+    text-align: center;
+    color:white;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+header > h1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: black; 
+    border-radius: 100px;
+}
+
+.CambioFondo {
+    padding: 1%;
+    text-align: center;
+}
+
+.CambiarTexto {
+    padding: 1%;
+    text-align: center;
+}
+
+.Comprobacion {
+    padding: 1%;
+    text-align: center;
+}
+
+.objeto {
+    padding: 1%;
+    text-align: center;
+}
+
+.Lista {
+    padding: 1%;
+    text-align: center;
+}
