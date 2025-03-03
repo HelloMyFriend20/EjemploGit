@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <title>Ejrcicio JavaScript</title>
+</head>
+<body>
+    <h1>Interacciones con JavaScript</h1>
+    <div class="CambioFondo">
+        <button onclick="cambiarFondo()">Cambiar Fondo</button>
+    </div>
+    <br><br>
+    <div class="CambiarTexto">
+        <button onclick="cambiarTexto()">Cambiar Texto</button>
+        <p id="texto1">Este es un texto que cambiara</p>
+        <p id="texto2">Este es un segundo texto que cambiara</p>
+        <p id="texto3">Este es un tercer texto que cambiara</p>
+    </div>
+    <br><br>
+    <div class="Comprobacion">
+        <input type="Numero" id="numero" placeholder="Ingrese un numero">
+        <button onclick="comprobarNumero()">Comprobar</button>
+        <p id="resultado"></p>
+    </div>
+    <br><br>
+    <div class="objeto">
+        <button onclick="mostrarObjeto()">Mostrar informacion del objeto</button>
+        <p id="InformacionObjeto"></p>
+    </div>
+    <br><br>
+    <div class="Lista">
+        <button onclick="mostrarLista()">Mostrar una lista de nombres</button>
+        <ul id="listanombres"></ul>
+    </div>
+</body>
+</html>
