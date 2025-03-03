@@ -14,7 +14,7 @@ function cambiarTexto() {
 function comprobarNumero() {
     let numero = document.getElementById("numero").value;
     let resutado = document.getElementById("resultado");
-    if (numero > 10 {
+    if (numero > 10) {
         resutado.innerHTML = "El número es mayor a 10";
     } else if (numero < 10) {
         resutado.innerHTML = "El número es menor a 10";
@@ -32,3 +32,19 @@ function mostrarObjeto() {
         edad: 20,
         correo: "correoexample@correo.com"
     };
+    let info = `Nombre: ${objeto.nombre} <br> Edad: ${objeto.edad} <br> Correo: ${objeto.correo}`;
+    document.getElementById("informacionObjeto").innerHTML = info;
+}
+
+//Funcion 5. Mostrar una lista de 5 nombres
+function mostrarLista() {
+    let nombres = ["Martin", "Sofia", "Pedro","Andres","Daniel"];
+    let lista = document.getElementById("listaNombres");
+    lista.innerHTML = "";
+
+    nombres.forEach((nombre) => {
+        let li = document.createElement("li");
+        li.textContent = nombre;
+        lista.appendChild(li);
+    });
+}
